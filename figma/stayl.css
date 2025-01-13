@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  a {
+    font-size: 14px;
+    color: #6c7275;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+
+section {
+  h1 {
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 76px;
+    span {
+      color: #6c7275;
+    }
+  }
+  p {
+    width: 480px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #6c7275;
+    span {
+      color: black;
+      font-size: 18px;
+    }
+  }
+}
+h2 {
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 500;
+}
+aside {
+  p {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 500;
+  }
+  .flex {
+    border-bottom: rgb(52, 51, 51) solid 2px;
+    width: 100px;
+  }
+  .tex1 {
+    position: absolute;
+    top: 48px;
+    left: 48px;
+  }
+  .tex2 {
+    position: absolute;
+    bottom: 40px;
+    left: 32px;
+  }
+}
+
+.btn {
+  padding: 1.6rem 3rem;
+  background-color: var(--main-color);
+  color: var(--fff-color);
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  border: solid 1px var(--main-color);
+  transition: all 0.2s ease-in-out 0.1s;
+}
+
+.btn2 {
+  background-color: var(--fff-color);
+  color: var(--main-color);
+  border: solid 1px var(--main-color);
+  transition: all 0.2s ease-in-out 0.1s;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  padding: 18px 210px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  width: 100%;
+  background-color: #fff;
+  h4 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+}
+
+header {
+  position: relative;
+  .img1 {
+    position: absolute;
+    left: 220px;
+  }
+  .img2 {
+    position: absolute;
+    right: 220px;
+  }
+}
+
+.container {
+  padding: 0 210px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h3 {
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 500;
+  }
+  p {
+    font-size: 16px;
+  }
+}
