@@ -75,16 +75,7 @@ aside {
   }
 }
 
-.btn {
-  padding: 1.6rem 3rem;
-  background-color: var(--main-color);
-  color: var(--fff-color);
-  font-family: "Open Sans";
-  font-size: 1.4rem;
-  line-height: 1.9rem;
-  border: solid 1px var(--main-color);
-  transition: all 0.2s ease-in-out 0.1s;
-}
+
 
 .btn2 {
   background-color: var(--fff-color);
@@ -139,4 +130,63 @@ header {
   p {
     font-size: 16px;
   }
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 210px;
+}
+
+.card{
+.a{
+  top: 16px;
+  left: 16px;
+  padding: 4px 14px;
+font-size: 18px;
+font-weight: 600;
+}
+.b{
+  top: 48px;
+  left: 16px;
+  padding: 4px 14px;
+font-size: 18px;
+font-weight: 500;
+background-color: #38CB89;
+border-radius: 4px;
+width: 68px;
+}
+.img-d{
+  top: 16px;
+  right: 16px;
+}
+button {
+font-size: 18px;
+font-weight: 500;
+padding: 9px 74px;
+background-color: #141718;
+color: #fff;
+ border-radius: 8px;
+ bottom: 95px;
+ left: 15px;
+}
+}
+
+.skrol{
+  width: 834px;
+  height: 4px;
+  background-color: #141718;
+  margin: 48px 0 10px 210px;
+  border-radius: 3px;
+}
+.skrol2{
+  position: absolute;
+  left: 833px;
+  top: 1.1px;
+  width: 286px;
+  height: 2.7px;
+  background-color: rgb(20, 23, 24, 0.5);
+  margin: 48px 0 10px 210px;
+  border-radius: 3px;
 }
